@@ -45,8 +45,9 @@ shape.
 
 - Returns `404` for an unknown, or non-public profile.
 - Does not reveal the existence of a private profile.
-- Returns only fields enabled for public display by the owner.
-- Applies a strict input format/length limit for `[friendCode]`.
+- Returns a profile only when its owner has turned on the public profile option.
+  That option is all-or-nothing for the identity fields and the modpack fields are the only ones with their own per-field visibility.
+- Treats `[friendCode]` as an lookup key. The `LAN-` format/length check is applied by the website before the request reaches the backend.
 
 Friend codes use the format `LAN-` followed by five letters or digits and the website normalizes them to uppercase before requesting the profile.
 

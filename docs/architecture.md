@@ -22,7 +22,7 @@ External data access is kept behind the frontend data layer:
 
 ## Current page behavior
 
-- `/worlds` is a client-rendered page because refreshes the public world list while the page is open.
+- `/worlds` is a client-rendered page because it refreshes the public world list while the page is open.
 - `/profile/[friendCode]` is server-rendered and displays either a public profile, a not-found page, or an unavailable state.
 - Pages that depend on public data must handle loading, empty, unavailable, and not-found states where applicable.
 
