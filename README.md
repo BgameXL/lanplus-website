@@ -51,7 +51,7 @@ npm run build
 - [Design direction](docs/design.md)
 - [Pages and content](docs/pages.md)
 - [Architecture and API boundary](docs/architecture.md)
-- [Backend integration contract](docs/backend-integration.md)
+- [Frontend aspects](docs/frontend-aspects.md)
 - [Contribution guide](CONTRIBUTING.md)
 
 ## Values

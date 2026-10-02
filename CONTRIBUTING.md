@@ -21,7 +21,7 @@ This prevents someone from spending time on something that doesn't fit LAN+.
 4. Run the site `npm run dev`.
 
 Backend access is not required for normal frontend work. Without it, pages that depend on public data display their unavailable state.
-If a contribution needs live test data, ask the maintainer for the test setup, contributors are not expected to run the backend.
+Contributors are not expected to run the backend.
 
 Before submitting a change, run `npm run lint` and `npm run build`.
 
