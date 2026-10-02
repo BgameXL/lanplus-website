@@ -1,9 +1,3 @@
-# Backend Integration Contract
-
-This document defines the intended boundary between the public website and the
-LAN+ Java backend. It is a contract to finalize with the backend implementation,
-not a claim that every endpoint already exists.
-
 ## Public endpoints
 
 ```http
