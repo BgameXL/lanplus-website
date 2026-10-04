@@ -10,6 +10,29 @@ The site should feel like part of the LAN+ game experience, but it should not im
 
 Use the green accent for actions, connection state, and key highlights.
 
+## Colors
+
+Defined as tokens in `app/globals.css`. Use the utility classes, not raw hex.
+
+| Token                    | Value     | Use                                                |
+|--------------------------|-----------|----------------------------------------------------|
+| `--color-brand-lavender` | `#A070F0` | The `LAN` wordmark and brand accents               |
+| `--color-brand-lime`     | `#BEE85A` | Actions, highlights, connection state, the `+`     |
+| `--color-brand-silver`   | `#AEB6C2` | Dividers and borders, and secondary or muted text  |
+| background               | `#0A0C10` | Page background                                    |
+| foreground               | `#EDEDED` | Primary text                                       |
+
+Lavender is identity, lime is action, you can remove the placeholder blue accents in the current code. 
+For a divider or border use silver.
+
+## Typography
+
+- Use the project's sans font.
+- One large hero heading per page, smaller section headings, body at a comfortable reading size.
+- Use valid Tailwind sizes.
+- Use weight for hierarchy, bold headings, normal body.
+- Keep line length readable and contrast high on the dark background.
+
 ## Prefer
 
 - Dark backgrounds with clear text contrast.
