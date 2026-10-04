@@ -5,8 +5,8 @@ body:
     attributes:
       value: |
         Before a larger visual change, consider discussing the direction first
-        (see [CONTRIBUTING](https://github.com/BgameXL/lanplus-website/blob/main/CONTRIBUTING.md)
-        or the Discord). This avoids work that does not fit LAN+.
+        (see [CONTRIBUTING](https://github.com/BgameXL/lanplus-website/blob/main/CONTRIBUTING.md)or the Discord).
+        This avoids work that does not fit LAN+.
   - type: textarea
     id: what
     attributes:
