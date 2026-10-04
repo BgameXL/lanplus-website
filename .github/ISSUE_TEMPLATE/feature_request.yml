@@ -1,0 +1,63 @@
+name: Feature or page request
+description: Propose a new page, component, or improvement
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before a larger visual change, consider discussing the direction first
+        (see [CONTRIBUTING](https://github.com/BgameXL/lanplus-website/blob/main/CONTRIBUTING.md)
+        or the Discord). This avoids work that does not fit LAN+.
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you want to build or change
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+      description: What problem solves or what value adds.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - landing
+        - worlds
+        - profile
+        - downloads
+        - cosmetics
+        - art
+        - design-system
+        - a11y
+        - not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - New page
+        - New component
+        - Enhancement
+        - Copy or docs
+        - Polish
+    validations:
+      required: true
+  - type: textarea
+    id: design-notes
+    attributes:
+      label: Design notes or references
+      description: Follow docs/design.md. Do not copy assets from other projects.
+  - type: checkboxes
+    id: guardrails
+    attributes:
+      label: Checklist
+      options:
+        - label: I read the design guardrails in docs/design.md
+          required: true
+        - label: This is a larger visual change and I will discuss the direction before building it
+          required: false

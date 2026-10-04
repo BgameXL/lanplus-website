@@ -1,0 +1,70 @@
+name: Bug report
+description: Something on the website looks or behaves wrong
+title: ""
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please search existing issues first, and look into
+        [design guide](https://github.com/BgameXL/lanplus-website/blob/main/docs/design.md).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Describe the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - landing
+        - worlds
+        - profile
+        - downloads
+        - cosmetics
+        - art
+        - design-system
+        - a11y
+        - not sure
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page or URL
+      placeholder: /worlds
+  - type: dropdown
+    id: width
+    attributes:
+      label: Screen width
+      options:
+        - Desktop
+        - Mobile
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Firefox 123
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Attach before and after if it is visual.
