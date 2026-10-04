@@ -1,6 +1,5 @@
 name: Bug report
 description: Something on the website looks or behaves wrong
-title: ""
 body:
   - type: markdown
     attributes:

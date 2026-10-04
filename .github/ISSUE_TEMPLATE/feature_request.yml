@@ -1,6 +1,5 @@
 name: Feature or page request
 description: Propose a new page, component, or improvement
-title: ""
 body:
   - type: markdown
     attributes:
